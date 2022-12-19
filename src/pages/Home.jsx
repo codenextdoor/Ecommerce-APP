@@ -1,7 +1,13 @@
 import React from "react";
+import Announce from "../components/Announce";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      {" "}
+      <Announce />
+    </div>
+  );
 };
 
 export default Home;
