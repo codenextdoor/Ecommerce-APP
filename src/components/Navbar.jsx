@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="right flex flex-1 items-center justify-end">
           <div className={style}>Register</div>
           <div className={style}>Sign in</div>
-          <div>
+          <div className={style} >
             <Badge badgeContent={2} color="primary">
               <ShoppingCartOutlined />
             </Badge>
