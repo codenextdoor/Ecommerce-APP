@@ -16,7 +16,7 @@
 5 >pages > Home.jsx rafce save import in app.js
 -->
 
-<!-- Creating Announce component 
+<!-- Creating Announce component D
 1 >comp > Announce.jsx > h2 hurry up its 40% off now 
 2 G Home> import <Announce
 3 under  h2 in Announce import new icon <Close
@@ -24,4 +24,34 @@ cl 'cursor-pointer'
 4 in return div give cl 'bg-[#8a4af3] font-bold text-white flex items-center justify-center' 
 5 remove styles from return cl and create new use state
 announceStyle ('c+p ') ur all style
+-->
+
+<!-- Dynamic styling of Announce component D
+1 >announce in return div cl = {announceStyle}
+2 >announce in close onClick={handleClose}
+3 >announce make a func below use state
+const handleClose fa setAnnounceStyle(announceStyle + " hidden") //in tw we use hidden for display none 
+4  // in tw u have to use space then style other wise
+it will become justify-centerhidden 
+5 >comp > Navbar.jsx > rafce > 
+-->
+
+<!-- Creating new Navbar component D
+1 >navbar in return div cl = {announceStyle}
+2 >announce in close onClick={handleClose}
+3 >announce make a func below use state
+const handleClose fa setAnnounceStyle(announceStyle + " hidden") //in tw we use hidden for display none 
+4  // in tw u have to use space then style other wise
+it will become justify-centerhidden 
+5 >comp > Navbar.jsx > rafce > 
+-->
+
+<!-- Styling Navbar component 
+1 >navbar return div cl = 'navbar h-[60px] shadow-md relative z-10'>
+2 >new div cl = 'wrapper pl-[20px] pr-[20px] pt-[10px] pb-[10px] flex justify-between items-center '
+3 > new  <div>1</div>//left 
+         <div>2</div> //center
+         <div>3</div> //right
+4  > Home under <Announce import <Navbar
+5 in left div cl = 'left flex flex-1 items-center'
 -->
