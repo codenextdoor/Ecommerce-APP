@@ -137,3 +137,74 @@ h-[100%]
 </div>
 
 -->
+
+<!--  Slider commit -D
+
+1 > <img/ cl src >
+ </div>//below this 
+
+ <div cl = 'des flex flex-col flex-1 place-items-start 
+ justify-center ml-11 '>
+    <h2 cl = "text-[55px]">Hey this is an awesome deal today </h2>
+    <p cl='text-[30px]'> Upto 40% off </p>
+    <btn cl ='btn'> shop now </button>
+ </div> 
+
+2 > in index.css 
+before utilities 
+.btn{
+    @apply text-white bg-[#8a4af3] rounded-md shadow-md p-3
+    hover:scale-[1.1] ease-in duration-100 cursour-pointer 
+    hover:bg-blue-500 
+}
+
+-->
+
+<!--  Image Slider commit 
+
+1 > 
+
+2 > 
+
+
+-->
+
+<!--  Image SliderApi commit D 
+
+1 > src > apifolder > SliderApi.js 
+export const ApiSlides = [
+  {
+    src: "https://image.freepik.com/free-photo/happy-woman-shopping-with-shopping-bags_1150-20495.jpg",
+    content: {
+      h2: "Amazing Deals this Summer",
+      p: "Upto 40% off",
+    },
+    background: ' bg-[#c6e400]'
+  },
+  {
+    src: "https://media.istockphoto.com/id/1193750118/photo/beautiful-asian-woman-carrying-colorful-bags-shopping-online-with-mobile-phone.jpg?s=612x612&w=0&k=20&c=j1SpSX7c3qzBrUT5f7HRoOfxQnPxZY_c6yb3AvXA5f8=",
+    active: true,
+    content: {
+      h2: "Christmas Deals this week",
+      p: "Upto 20% off",
+    },
+    background: ' bg-[#A39CE0]'
+  },
+  ]
+
+2 > import {ApiSlides} from '../apifolder/SliderApi'
+below func slider (){
+  //useState hooks 
+  cons [slides] = useState(ApiSlides)
+const [activeSlide, setActiveSlide] = useState(0)
+
+-->
+
+<!--  Imageslider api commit 
+
+1 > 
+
+2 > 
+
+
+-->
