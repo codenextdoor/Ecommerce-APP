@@ -1,4 +1,5 @@
 import React from "react";
+import Cart from "./pages/Cart";
 // import CategoryPage from "./pages/CategoryPage";
 import ProductPage from "./pages/ProductPage";
 // import Home from "./pages/Home";
@@ -6,7 +7,7 @@ import ProductPage from "./pages/ProductPage";
 const App = () => {
   return (
     <div>
-      <ProductPage />
+      <Cart />
     </div>
   );
 };
